@@ -2,7 +2,7 @@
 - Second commit
 - Second branch
 
-+ <Updated : Added new folders and files 
++ <Updated> : Added new folders and files 
 
 # Starting on HTML5
 * HTML5
