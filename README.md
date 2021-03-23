@@ -2,9 +2,15 @@
 - Second commit
 - Second branch
 
+- + Updated : Added new folders and files 
 
 # Starting on HTML5
-* LS 1
-    - A: Tags
+* HTML5
+    - A: Tags ->
     hr and br serve as the same but hr inserts a line breaker
+
+    - B : Links ->
+    Used to referentiate Stylesheets
+
+    - C
     
