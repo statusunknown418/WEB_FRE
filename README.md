@@ -9,11 +9,12 @@
 ---
 # Starting on HTML5
 * HTML5
-    - A: Tags ->
-    hr and br serve as the same but hr inserts a line breaker
+    - A : Tags 
 
-    - B : Links ->
-    Used to referentiate Stylesheets
+    1. Hr and br serve as the same but hr inserts a line breaker
 
-    - C
+    - B : Links 
+
+    1. < link > is used to referentiate Stylesheets
+    2. < a > tag is used for real hyperlinks
     
