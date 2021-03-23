@@ -1,9 +1,9 @@
 # Learning frontend DEVOPS
 - Second commit
-- Second branch
-
-<Updated> : Added new folders and files 
-
+- Scond branch
+---
+**Updated** : Added new folders and files 
+---
 # Starting on HTML5
 * HTML5
     - A: Tags ->
