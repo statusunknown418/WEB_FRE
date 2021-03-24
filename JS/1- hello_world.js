@@ -6,6 +6,6 @@ var length = myStr.length
 
 firstletter = myStr[0]
 
-product = i*i*i*546*654
+product = i * i * i * 546 * 654
 
-console.log(myStr + " " + length + " "+ firstletter);
+console.log(myStr + " " + length + " " + firstletter);
