@@ -1,3 +1,5 @@
+/* This is linked to HTML/3-Links.html */
+
 p {
     background-color: aquamarine;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -7,5 +9,12 @@ p {
 
 h1 {
     color: blueviolet;
+    
+}
+
+/* To use the classes I think I have to place a (.) before the name
+not quito sure tho */
+.class1 {
+    background-color: blanchedalmond
     
 }
