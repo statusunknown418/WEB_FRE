@@ -4,6 +4,7 @@ var dog = {
     "name": "Benji",
     "age": 5,
     "friends": ["no", 10]
+
 }
 
 //Accessing object's properties
@@ -12,13 +13,16 @@ var dogName = dog.name
 //Can be used with[]
 var dogAge = dog['age']
 
-console.log(dogName + " " + dogAge);
+console.log("The dog name is ${dogAge} " + dogAge);
 
 //Using variables
 var testObj = {
     1: "Elton",
     2: 15,
     3: ["ll", 5, -0.5],
+    a = {
+        "time": 15.39,
+    }
 }
 
 var playerName = 1
