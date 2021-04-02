@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <style>
         span {
             background-color: brown;
         }
-        .main_div{
-            height: 200px;
-            width: 100px;
+
+        .main_div {
+            min-height: 200px;
+            min-width: 100px;
             background-position: 10%;
             background-color: coral;
         }
     </style>
-    <img src="" alt="">
-    <title></title>
-  </head>
-  <body>
+
+    <title>A lerning page</title>
+</head>
+
+<body>
 
     <!-- DIV Defines a section in a document -->
     <div class="main_div">
         <!-- Defines a header for the document or section -->
-        <h1>A header inside a div</h1>
+        <h1 id="h1_header">A header inside a div</h1>
 
     </div>
 
@@ -33,7 +36,7 @@
         <!-- Is also a divider [stationary]-->
         <h2>This header will be stationary</h2>
     </header>
-    
+
     <!-- Defines  navigation links -->
     <nav>
 
@@ -43,25 +46,21 @@
     <main>
         <!-- MAIN will automatically create height and width -->
         <h1>Header of the main</h1>
+
+        <!-- This will only work internally because doesn't have a target -->
+        <a href="#h1_header">Jump to top</a>
+        <br>
+        <a href="/JS/6- Boolean.js">This will redirect to another file</a>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nostrum iure saepe corrupti dolor in itaque numquam fuga <br>
+            nihil
+            deleniti nesciunt recusandae, magni atque doloribus non quas id. Dolores,
+            ab nihil. <b> <a href="1-Tags.html" target="_blank">Jump to other file</a> </b> </p>
     </main>
-    
-    <!-- Defines a section in a document -->
-    
-    <!-- Defines an article -->
-
-    <!-- Defines content aside from the page content -->
-
-    <!-- Defines additional details that the user can view or hide -->
-
-    <!-- Defines a dialog box or window -->
-
-    <!-- Defines a visible heading for a <details> element -->
-
-    <!-- Adds a machine-readable translation of a given content -->
 
     <!-- Defines a footer for a document or  section -->
+    <footer>This is a footer</footer>
 
-    
+</body>
 
-  </body>
 </html>
