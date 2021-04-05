@@ -1,0 +1,22 @@
+/*One cool thing about id attributes is that, like classes, 
+you can style them using CSS.
+However, an id is not reusable and should only be applied to
+one element. An id also has a higher specificity (importance) than a class so
+if both are applied to the same element and have conflicting styles,
+the styles of the id will be applied.*/
+
+/*Notice that ID's are referenced with a "#" */
+#a-form {
+    background-color: sienna;
+
+    /*Borders*/
+    border-color: aqua;
+    border-width: 10px;
+    border-style: solid;
+
+    /*Used to round the borders*/
+    border-radius: 10px;
+    
+    /*If the radius is 50% the border will be perfectly circular*/
+    
+}

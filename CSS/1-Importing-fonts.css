@@ -1,0 +1,23 @@
+/* Fonts can be easily imported from Google 
+HOWEVER the link to the font may be in HTML file*/
+
+p {
+    /* Font families MUST be inside quotes*/
+    font-family: "Lobster";     
+
+}
+
+/* A DEFAULT or FALLBACK font is used when the selected font family
+is not availiable so the borwser will degrade to the DEFAULT one*/
+h2 {
+
+    /*So the format is -->
+    font-family: FONT_DESIRED, DEFAULT_[ROLLBACK]_FONT;
+    */
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.silver-background {
+    background-color: silver;
+}
