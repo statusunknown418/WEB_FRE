@@ -28,6 +28,6 @@ Horizon Theme in VSCODE, looks great.
 
     - A: Margins, paddings, border:
 
-![The visual explanation](/Users/samurai/Documents/MAC-DEV/M-WEB/WEB_FRE/IMG/visualize.png)
+![The visual explanation](https://github.com/AlvaroAquijeDiaz/WEB_FRE/blob/main/IMG/visualize.png)
     
  
