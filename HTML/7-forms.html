@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <!-- Now this is a way to get imput from user -->
+    <!-- Note that input elements are self-closing. -->
+    <input type="text" placeholder="Some text before user's one">
+
+    <!-- This is a form, inside "action" resides a URL -->
+    <!-- Notice that many items can be nested -->
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <input type="text" placeholder="enter name">
+
+            <!-- This button will sumbit info to a PREVIOUS specified URL -->
+            <button type="submit">This type sumbits info as the name says</button>
+            <input type="text" required>
+
+    <!-- This is a RADIO type of input nested in a label -->
+            <label for="indoor">
+                <input id="indoor" type="radio" name="indoor-outdoor">indoor
+            </label>
+            <label for="outdoor">
+                <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+            </label>
+
+    <!-- This is a CHECKBOX type of input, think all of them needs to be inside label-->
+            <label for="loving">
+                <input type="checkbox" name="personality" id="1">option 1</label>
+
+            <label for="loving">
+                <input type="checkbox" name="personality" id="2">option 1</label>
+
+            <label for="loving">
+                <input type="checkbox" name="personality" id="3">option 1</label>
+        </form>
+    
+    <!-- You can set a certain radio or checkbox to be CHECKED by DFLT using DEFAULT attribute -->
+
+        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+        <!-- CHECKBOX -->
+        <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>    </body>
+
+</body>
+</html>
