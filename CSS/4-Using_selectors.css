@@ -1,0 +1,20 @@
+/*We can use the [attr=value] selector to specify the matching
+elements in the HTML file ex.*/
+
+/*This will match every element that is a checkboxand link the specified values/properties to them*/
+[type='checkbox'] {
+    margin: 10 0 15 0;
+}
+
+/* 
+#######################
+        UNITS
+#######################
+
+- The most used units are relative [em, rem] and absolute [inch, mm]
+    1. Em is based on the size of an element's FONT
+    
+*/
+
+
+

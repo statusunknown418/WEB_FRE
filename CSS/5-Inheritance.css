@@ -1,0 +1,43 @@
+/*      REFERENCE       
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+*/
+
+body {
+    background-color: black;
+    font-family: monospace;
+
+    /*
+    #####  OVERRIDE ALL OTHER STYLES BY USING ---IMPORTANT----   #####
+    */
+    color: green !important;
+  }
+
+
+/*
+Our pink-text class override our body element's CSS declaration!
+*/
+.pink-text {
+    color: pink;
+  }
+
+
+/*  ##### The order of the class declarations in the <style> section 
+                is what is important. ######
+                
+The second declaration 
+will always take precedence over the first. Because .blue-text 
+is declared second, it overrides the attributes of .pink-text
+*/
+.blue-text {
+    color: blue;
+
+}
+
+/*  ### PRIORITY NUMBER 1 ###
+
+Will always be the element's ID
+
+*/
+#orange-text{
+    color:orange;
+}
