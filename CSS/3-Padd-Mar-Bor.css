@@ -23,6 +23,7 @@ content and its border.*/
   .blue-box {
     background-color: blue;
     color: #fff;
+    
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
@@ -35,6 +36,12 @@ content and its border.*/
   .yellow-box {
     background-color: yellow;
     padding: 15px;
+
+    /*These four values work like a clock: top, right, bottom, left,
+    and will produce the exact same result as using the side-specific 
+    padding instructions.*/
+    padding: 40px 20px 20px 40
+    
   }
 
 /* Margins */
