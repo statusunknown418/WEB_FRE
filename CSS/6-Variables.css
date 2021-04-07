@@ -1,0 +1,45 @@
+.penguin {
+
+    /* 
+    This is a variable
+    Format == --<variable_name>
+    */
+    --penguin-skin: black;
+    --penguin-belly: gray;
+    --penguin-beak: yellow;
+
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 20%;
+    width: 300px;
+    height: 300px;
+}
+
+/*
+######  VARIABLE USAGE  ######
+*/
+.penguin-top {
+    color: var(--penguin-skin);
+}
+
+/* Variables can be set with a fallback, same as with fonts. In case the browser
+isn't able to find the variable it'll assign the default value */
+.penguin-bottom {
+    color: var(--penguin-belly, black)
+}
+
+/* By declaring the variables inside :root we are able to make them global*/
+:root {
+
+    /* But this variables will set its values to the WHOLE website*/
+    --penguin-new-color: blue;
+}
+
+/*  ========= However we can OVERRIDE =========
+them by declaring the variable again 
+inside an element */
+.prenguin-right-hand {
+    --penguin-new-color: white;
+
+}
