@@ -12,9 +12,9 @@ https://rubjo.github.io/victor-mono/ - The font!
 Horizon Theme in VSCODE, looks great.
 
 ---
-# Starting on HTML5
-* HTML5
-    - A : Tags
+# Starting on WEB DEVELOPMENT
+## HTML5
+- A : Tags
 
     1. Hr and br serve as the same but hr inserts a line breaker
 
@@ -24,9 +24,9 @@ Horizon Theme in VSCODE, looks great.
     2. < a > tag is used for real hyperlinks
     3. Finished with HTML, yaii!
 
-* CSS
+## CSS
 
-    - A: Useful info: 
+- A: Useful info: 
 
     These four values work like a clock: top, right, bottom, left,
     and will produce the exact same result as using the side-specific
@@ -35,14 +35,17 @@ Horizon Theme in VSCODE, looks great.
 
     ---
 
-    - B: Units:
+- B: Units:
     
     - The most used units are relative [em, rem] and absolute [inch, mm]
         1. Em is based on the size of an element's FONT.
         2. Rem is based on the root element.
     ---
+
+    - C: VARIABLES : THEY CAN SIMPLIFY THE USAGE OF ***MEDIA QUERIES***, SO UNDERSTANDING
+    THEM IS **VERY** IMPORTANT.
  
-    - C: Margins, paddings, border:
+    - D: Margins, paddings, border:
 
 ![The visual explanation](https://github.com/AlvaroAquijeDiaz/WEB_FRE/blob/main/IMG/visualize.png)
     
