@@ -1,4 +1,4 @@
-# Learning frontend (GIT)
+# Learning frontend (AND Git)
 - Second commit
 - Scond branch
 
@@ -54,3 +54,25 @@ them is **VERY** *IMPORTANT*.
 ## Visual Design
 ---
 #### **A: Element alligment with CSS**
+
+We use the formatting parameters similar as in, for example, MS Word.
+
+- **NOTE** : 
+    * ***box shadow*** : < offset-x >, < offset-y >, < blur-radius >, < spread-radius >, < color >; 
+
+        Creates a shadow arround an element (useful in **divs**).
+
+    * ***font-weight*** : Goes from **1000** to **0**
+
+#### **B: TEXT PROPERTIES**
+| **Value** | **RESULT** |
+| ----------- | ----------- |
+| **lowercase** | "transform me" |
+| **uppercase** | "TRANSFORM ME" |
+| **capítalize** | "Transform Me" |
+| **inherit** | *Use the **text-transform** value from parent element* |
+
+#### **C: POSITIONS**
++ When the position of an element is set to ***relative***, it allows you to specify how CSS should move it relative to **its current position** in the normal flow of the page.
+
+![The offsets explained](https://github.com/AlvaroAquijeDiaz/WEB_FRE/blob/main/IMG/position.gif)
