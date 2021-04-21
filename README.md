@@ -76,3 +76,7 @@ We use the formatting parameters similar as in, for example, MS Word.
 + When the position of an element is set to ***relative***, it allows you to specify how CSS should move it relative to **its current position** in the normal flow of the page.
 
 ![The offsets explained](https://github.com/AlvaroAquijeDiaz/WEB_FRE/blob/main/IMG/position.gif)
+
+- Relative
+- Absolute
+- **Sticky**
