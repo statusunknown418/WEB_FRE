@@ -27,7 +27,8 @@ Horizon Theme in VSCODE, looks great.
 
 ## CSS
 ---
-
+**NORMALIZE.CSS is useful**
+---
 #### **A: Useful info:**
 
 These four values work like a clock: top, right, bottom, left,
