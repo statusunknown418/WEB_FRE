@@ -2,16 +2,20 @@
 <h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
 */
 
-body {
+.main-body {
     background-color: black;
     font-family: monospace;
+
+    font-size: 20px;
 
     /*
     #####  OVERRIDE ALL OTHER STYLES BY USING ---IMPORTANT----   #####
     */
     color: green !important;
   }
-
+.main-body__input {
+  font-size: 2em;             /*Now 1em will be equal to 20px*/
+}
 
 /*
 Our pink-text class override our body element's CSS declaration!

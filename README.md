@@ -39,7 +39,7 @@ padding instructions ==>
 #### **B: Units:**
     
 The most used units are relative [em, rem] and absolute [inch, mm]
-1. Em is based on the size of an element's FONT.
+1. Em is based on the size of an element's FONT. ---> **We can define *em* giving the parent element a certain value in *px***
 2. Rem is based on the root element.
 
 #### **C: VARIABLES:** 
@@ -53,6 +53,17 @@ them is **VERY** *IMPORTANT*.
     
 ## Visual Design
 ---
+### CORE FUNDAMENTALS
+- **Selectors**
+
+    + Universal : * {props: value} 
+        Selects every element on the document
+    + Type : < element-name >{props: value} =>
+    **h1 {color: red}** 
+    
+    + Class : <.elementId>{props: value} => **.blueBox{background-color: blue}**
+    + ID : < #elemtntID > {props: value} 
+
 #### **A: Element alligment with CSS**
 
 We use the formatting parameters similar as in, for example, MS Word.
