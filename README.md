@@ -1,6 +1,6 @@
 ## Update
 
-Even though I already learnt all of this, I'll it as a cheatsheet for everyone starting on their new career
+Even though I already learnt all of this, I'll leave it as a cheatsheet for everyone starting on their new career
 - ***Best of lucks for anybody reading - from @alvarotech***
 ---
 
